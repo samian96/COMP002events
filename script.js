@@ -12,7 +12,7 @@ document.querySelector(".blocked").addEventListener("click" , function(event) {
     event.preventDefault();
 }); // prevents the user from leaving the webpage from clicking on the link 
 
-document.querySelector(".myButton").onclick =function() {
+document.querySelector(".blocked").onclick =function() {
     myBlock();
 }
 function myBlock () {
